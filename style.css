@@ -1,0 +1,145 @@
+body {
+    background-color:rgba(112, 112, 128, 0.384);
+}
+.main {
+    background-color: aquamarine;
+    height: 80vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 75px;
+    box-shadow: 5px 5px 5px rgba(112, 112, 128, 0.548), -5px -5px 5px rgba(112, 112, 128, 0.548);
+    border-radius: 15px;
+}
+.right-content {
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 15px 0px 0px 15px;
+}
+.left-content {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(19, 19, 124);
+    float: right;
+    color: #fff;
+    border-radius: 0px 15px 15px 0px
+}
+
+.inside-right {
+    width: 70%;
+    height: 95%;
+    background-color: #fff;
+    margin: auto;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+h2 {
+    font-size: 55px;
+    margin-top: 40px;
+}
+#below {
+    padding-top: 0px;
+    padding-right: 50px;
+}
+
+
+
+.second-row {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    position:relative;
+}
+.third-row {
+    padding-bottom: 20px;
+    position:relative;
+}
+.second-row input{
+    width: 405px;
+    height: 50px;
+    border: 0px;
+    background-color: rgba(128, 128, 128, 0.068);
+}
+.third-row input{
+    width: 405px;
+    height: 50px;
+    border: 0px;
+    background-color: rgba(128, 128, 128, 0.068);
+}
+
+.second-row input[type=Email]{
+    padding-left: 40px;
+}
+.third-row input[type=password]{
+    padding-left: 40px;
+}
+
+.second-row i{
+    position:absolute;
+   left:4;
+   top:8px;
+   padding:50px 8px;
+   color:rgb(128, 128, 128)
+}
+.third-row i{
+    position:absolute;
+    left:4;
+    top:8px;
+    padding:10px 8px;
+    color:rgb(128, 128, 128)
+}
+button {
+    width: 448px;
+    height: 50px;
+    background-color: rgb(19, 19, 124);
+    border: 0px;
+    color:#fff;
+    font-size: 15px;
+    margin-bottom: 10px;
+    
+}
+#yeah {
+    padding: 170px;
+}
+#nine {
+    font-size: 30px;
+    padding: 25px 55px
+}
+
+
+
+
+h1 {
+    margin: 200px 90px 40px 90px;
+    font-size: 50px
+}
+.main .left-content div {
+    float: left;
+    text-align: justify;
+    margin-left: 160px;
+    margin-right: 100px;
+}
+img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.photos{
+    margin-top: 30px;
+    display:flex;
+    padding-bottom: 0px; 
+}
+.photos span {
+    margin-left: 7px;
+    margin-top: 5px;
+    display: block
+}
+#comment{
+    height: 50px;
+    width: 50px;
+    background-color:aquamarine;
+    border-radius: 50%;
+    margin-top: 120px;
+    margin-left: 80px;
+}
